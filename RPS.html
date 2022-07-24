@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/RPS.css"><link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <title>RPS|GAME</title>
+</head>
+<body>
+   <section>
+         <div class="container card mx-auto py-4 bg-dark mb-5 w-50 text-white text-center"> 
+         <div class="score">
+            <div class="display">POINT-BOARD</div>
+             YOUR SCORE:<h5 id="ysr">0</h5>
+             COMPUTER:<h5 id="csr">0</h5>
+         </div>
+        <h3  class="mt-4"> COMPUTER</h3>
+        <div class="comp-display rounded p-5 w-50 text-danger text-center mx-auto mb-4 fs-5 bg-light">COMPUTER</div>
+       <h3> YOU</h3>
+        <div class="p-display rounded p-5 w-50 text-danger text-center mx-auto mb-4  fs-5 bg-light">
+            YOU
+        </div>
+        <div class="buttons d-flex gap-2">
+            <button class="btn btn-danger w-50" id="rock">Rock</button>
+            <button class="btn btn-primary w-50" id="paper">Paper</button>
+            <button class="btn btn-success w-50" id="scissors">Scissors</button>
+        </div>
+        </div>
+        <audio src="assets/videos/rock.aac"  id="Raudio"></audio>
+        <audio src="assets/videos/paper.aac" id="Paudio"></audio>
+        <audio src="assets/videos/scissors.aac" id="Saudio"></audio>
+   </section>
+   <script src="assets/js/RPS.js"></script>
+</body>
+</html>
